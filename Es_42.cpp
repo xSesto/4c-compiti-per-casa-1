@@ -29,11 +29,11 @@ int main()
         cin>>p[i].prezzo;    
    }
    system("CLS");
-   cout<<"Codice" <<'\\t' <<"Descrizione" <<'\\t' <<"Prezzo" <<endl;
+   cout<<"Codice" <<'\t' <<"Descrizione" <<'\t' <<"Prezzo" <<endl;
    cout<<endl;
    for (i=1; i<=n; i++)
    {
-      cout<<i <<'\\t' <<p[i].descrizione <<'\\t' <<p[i].prezzo <<endl;    
+      cout<<i <<'\t' <<p[i].descrizione <<'\t' <<p[i].prezzo <<endl;    
    }
    
    do
@@ -49,11 +49,11 @@ int main()
    } while (o==0);
    
    system("CLS");
-   cout<<"Codice" <<'\\t' <<"Descrizione" <<'\\t' <<"Prezzo" <<endl;
+   cout<<"Codice" <<'\t' <<"Descrizione" <<'\t' <<"Prezzo" <<endl;
    cout<<endl;
    for (i=1; i<=n; i++)
    {
-      cout<<i <<'\\t' <<p[i].descrizione <<'\\t' <<p[i].prezzo <<endl;    
+      cout<<i <<'\t' <<p[i].descrizione <<'\t' <<p[i].prezzo <<endl;    
    }
    
    system("PAUSE");
