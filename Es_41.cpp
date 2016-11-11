@@ -4,10 +4,10 @@ using namespace std;
 
 float incasso, somma, media;
 string nome;
+int i;
 
-float acquisizione (float incasso, float somma, float media, string nome)
+float acquisizione (float incasso, float& somma, string nome)
 {
-    int i;
     int o;
     i=1;
     do
@@ -17,18 +17,27 @@ float acquisizione (float incasso, float somma, float media, string nome)
     cout<<"Incasso: ";
     cin>>incasso;
     somma=somma+incasso;
-    media=somma/i;
     cout<<"Altro?(0=SI): ";
     cin>>o;
     i++;
     } while (o==0);
-    return media;
-    
+    return somma;
 }
+
+float mediatotale (float media,float& somma, int& i)
+{
+    cout<<"Somma: " <<somma <<endl;
+    cout<<"I: " <<i <<endl;
+    media=somma/i;
+    return media;
+}    
+
 
 int main()
 {
-    cout<<"La media e: " <<acquisizione (incasso, somma, media, nome);
+    cout<<"La somma e': " <<acquisizione (incasso, somma, nome) <<endl;
+    i--;
+    cout<<"La media e': " <<mediatotale (media, somma, i);
     system ("PAUSE");
     return 0;
 }
