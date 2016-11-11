@@ -26,13 +26,13 @@ int main()
     
     if (perc1>perc2)
     {
-        cout<<"1)  "  <<cand1 <<'\\t' <<perc1 <<endl;
-        cout<<"2)  "  <<cand2 <<'\\t' <<perc2 <<endl;
+        cout<<"1)  " <<cand1 <<'\t' <<perc1 <<endl;
+        cout<<"2)  " <<cand2 <<'\t' <<perc2 <<endl;
     }
     else
     {
-        cout<<"1)" <<'\\t' <<cand2 <<'\\t' <<perc2 <<endl;
-        cout<<"2)" <<'\\t' <<cand1 <<'\\t' <<perc1 <<endl;
+        cout<<"1)  " <<cand2 <<'\t' <<perc2 <<endl;
+        cout<<"2)  " <<cand1 <<'\t' <<perc1 <<endl;
     }
 
   system ("PAUSE");
