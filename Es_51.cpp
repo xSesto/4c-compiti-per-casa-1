@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int a[10], i, somma;
+int a[10], i, conta;
 
 int main()
 {
@@ -23,11 +23,11 @@ int main()
     for (i=0; i<10; i++)
     {
         if (a[i]>5)
-            somma=somma+a[i];    
+            conta++;    
     }
     
-    cout<<"La somma e': " <<somma <<endl <<endl;
-    
+    cout<<"Gli elementi sono: " <<conta <<endl <<endl;
+   
   system("PAUSE");
   return 0;
   
